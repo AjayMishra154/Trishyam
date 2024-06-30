@@ -17,7 +17,7 @@ const Contact = () => {
             <div className='specialEffect'>
                 <Navbar />
                 <div className='empty-div'>
-                    <h1 className='serviceHeading1'>Contact Us</h1>
+                    <h1 className='heading1'>Contact Us</h1>
                 </div>
             </div>
             <div className='structure'>

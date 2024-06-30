@@ -1,125 +1,128 @@
 .about-redirection {
-    width: 100%;
-    color: #ffffff;
-    margin-top: 9%;
-    height: 27vh;
-    background-image: url("https://t3.ftcdn.net/jpg/03/26/61/00/240_F_326610062_NBlAHDP8JTPnp8vJ2pofSRUvYMTSj1Cx.jpg");
-    background-size: cover;
+  width: 100%;
+  color: #ffffff;
+  margin-top: 9%;
+  height: 27vh;
+  background-image: url("https://t3.ftcdn.net/jpg/03/26/61/00/240_F_326610062_NBlAHDP8JTPnp8vJ2pofSRUvYMTSj1Cx.jpg");
+  background-size: cover;
 }
-.aboutDescriptheader{
-    font-weight: 400;
-    text-align: justify;
-    padding: 1%;
-    font-size: 18px;
-    line-height: 2rem;
-    font-family: 'helvetica';
-
-
-
+.aboutDescriptheader {
+  font-weight: 400;
+  text-align: justify;
+  padding: 1%;
+  font-size: 18px;
+  line-height: 2rem;
+  font-family: "helvetica";
 }
-.specialword{
-    font-size: xx-large;
-    
+.specialword {
+  font-size: xx-large;
 }
 
-.empty-div{
-    padding-bottom: 0%;
+.empty-div {
+  padding-bottom: 0%;
 }
 .whatWeOffer1 {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    padding: 3%; /* Add some padding if needed */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 3%; /* Add some padding if needed */
 }
 
 .aboutContent {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 100%;
-    text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  text-align: center;
 }
 
 .aboutText1 {
-    width: 75%; /* Adjust the width as needed */
-    text-align: center;
+  width: 75%; /* Adjust the width as needed */
+  text-align: center;
 }
 
-.aboutDescript1{
-    font-weight: 500;
-    text-align: justify;
-    padding: 1%;
-    font-size: 28px !important;
-    line-height: 2rem;
-    font-style: italic; 
-    color: #5a5a5a;
+.aboutDescript1 {
+  font-weight: 500;
+  text-align: justify;
+  padding: 1%;
+  font-size: 28px !important;
+  line-height: 2rem;
+  font-style: italic;
+  color: #5a5a5a;
 }
 .redirectionAboutStructure {
-    width: 60%;
-    height: 21vh;
-    margin: 0 auto 0 auto;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    align-items: center;
+  width: 60%;
+  height: 21vh;
+  margin: 0 auto 0 auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
 }
 @media (max-width: 1024px) {
-    .redirectionAboutStructure {
-        width: 80%;
-    }
+  .redirectionAboutStructure {
+    width: 80%;
+  }
 }
 
 @media (max-width: 768px) {
-    .aboutText1 {
-        width: 96%; }
-    .about-redirection {
-        height: auto;
-        padding: 20px 0;
-    }
+  .aboutText1 {
+    width: 96%;
+  }
+  .about-redirection {
+    height: auto;
+    padding: 20px 0;
+  }
 
-    .redirectionAboutStructure {
-        width: 90%;
-        height: auto;
-    }
+  .redirectionAboutStructure {
+    width: 90%;
+    height: auto;
+  }
 
-    .redirectionButton .button {
-        padding: 8px 16px;
-        font-size: 0.9rem;
-    }
+  .redirectionButton .button {
+    padding: 8px 16px;
+    font-size: 0.9rem;
+  }
 }
 
 @media (max-width: 480px) {
-    
-    .aboutText1 {
-    width: 96%; }
-    .about-redirection {
-        height: auto;
-        padding: 20px 0;
-        margin-top: 5%;
-    }
+  .aboutText1 {
+    width: 96%;
+  }
+  .about-redirection {
+    height: auto;
+    padding: 20px 0;
+    margin-top: 5%;
+  }
 
-    .redirectionAboutStructure {
-        width: 100%;
-        height: auto;
-        padding: 10px;
-    }
+  .redirectionAboutStructure {
+    width: 100%;
+    height: auto;
+    padding: 10px;
+  }
 
-    .redirectionAboutStructure h1 {
-        font-size: 1.5rem;
-    }
+  .redirectionAboutStructure h1 {
+    font-size: 1.5rem;
+  }
 
-    .redirectionAboutStructure p {
-        font-size: 1rem;
-    }
+  .redirectionAboutStructure p {
+    font-size: 1rem;
+  }
 
-    .redirectionButton .button {
-        padding: 6px 12px;
-        font-size: 0.8rem;
-    }
+  .redirectionButton .button {
+    padding: 6px 12px;
+    font-size: 0.8rem;
+  }
 }
 .serviceHeading1 {
-    text-align: center;
-    margin-bottom: 0;
-    font-size: 36px;
-    
+  text-align: center;
+  margin-bottom: 0;
+  font-size: 36px;
+}
+.heading1 {
+  margin-top: 30px;
+  margin-bottom: 30px;
+  font-size: 40px;
+  text-align: center;
+  color: #ffff !important;
 }

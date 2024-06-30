@@ -27,6 +27,9 @@ const images5 = [
 const image5 = '/Imag5.webp';
 
 class Home extends Component {
+    
+
+    
     render() {
         const settings = {
             dots: true,
@@ -37,6 +40,48 @@ class Home extends Component {
             autoplay: true,
             autoplaySpeed: 3000
         };
+        const OurClientsScroller = () => (
+            <div className="marque">
+            <div className="marque__group">
+                {[
+                    { src: '/ball2.webp', alt: 'Ankita Mehra', className: 'debashi'},
+                    { src: '/ball3.webp', alt: 'Dr Debashi', className: 'debashi'},
+                    { src: '/ball4.webp', alt: 'Dr kiran Rukadikar'},
+                    { src: '/ball4.webp', alt: 'Dr Madhu Chopra'},
+                    { src: '/ball2.webp', alt: 'shikha Khanna' , className: 'debashi'},
+                    { src: '/ball3.webp', alt: 'Dr shuti Khare Shukla' },
+                    { src: '/ball1.webp', alt: 'Ms Tina Vinod', className: 'debashi'},
+                    { src: '/ball3.webp', alt: 'Dr Trishna Gupte' },
+                    { src: '/ball2.webp', alt: 'Twinkle Jain', className: 'debashi'},
+                ].map(client => (
+                    <div className="clientImageWrapper" key={client.alt}>
+                        <img src={client.src} alt={client.alt} className="clientImages" />
+                        {/* <span className={`clientName ${client.className || ''}`}>{client.alt}</span> */}
+                    </div>
+                ))}
+            </div>
+    
+            <div aria-hidden="true" className="marque__group">
+               {[
+                    { src: '/ball2.webp', alt: 'Ankita Mehra', className: 'debashi'},
+                    { src: '/ball3.webp', alt: 'Dr Debashi', className: 'debashi'},
+                    { src: '/ball4.webp', alt: 'Dr kiran Rukadikar'},
+                    { src: '/ball4.webp', alt: 'Dr Madhu Chopra'},
+                    { src: '/ball2.webp', alt: 'shikha Khanna' , className: 'debashi'},
+                    { src: '/ball3.webp', alt: 'Dr shuti Khare Shukla' },
+                    { src: '/ball1.webp', alt: 'Ms Tina Vinod', className: 'debashi'},
+                    { src: '/ball3.webp', alt: 'Dr Trishna Gupte' },
+                    { src: '/ball2.webp', alt: 'Twinkle Jain', className: 'debashi'},
+                ].map(client => (
+                    <div className="clientImageWrapper" key={client.alt}>
+                        <img src={client.src} alt={client.alt} className="clientImages" />
+                        {/* <span className={`clientName ${client.className || ''}`}>{client.alt}</span> */}
+                    </div>
+                ))}
+            </div>
+        </div>
+        );
+        
 
         return (
             <>
@@ -74,7 +119,17 @@ class Home extends Component {
                         </div>
                     ))}
                 </div>
-                
+                <div className='logoslider'>
+                    <div className="App">
+                    <img src='/logo.jpg' alt="Moving" className="moving-image" />
+                </div>
+                </div>
+                 
+                 <h1 className='heading'> Our Products</h1>
+        
+              <div className='body'>
+                {OurClientsScroller()}
+              </div>
                 
                 <div>
                     <Footer />

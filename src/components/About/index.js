@@ -4,79 +4,43 @@ import Navbar from '../Navbar'
 import Footer from '../Footer'
 
 const About = () => {
-    const imageNames = ['bombaytimes', 'cosmopolitan', 'healthshots', 'healthsite', 'Mid-Day', 'pinkvilla', 'thestatesman', 'vouge']
-    const ImageScroller = () => (
-        <div class="marquee">
-            <div class="marquee__group">
-                <img src="/tieupCompanies/AICFB.png" alt="AICFB" className='tieupCompaniesImages' />
-                <img src="/tieupCompanies/bookmychef.png" alt="AICFB" className='tieupCompaniesImages' />
-                <img src="/tieupCompanies/BVC.png" alt="AICFB" className='tieupCompaniesImages' />
-                <img src="/tieupCompanies/galalite.png" alt="AICFB" className='tieupCompaniesImages' />
-                <img src="/tieupCompanies/honey.png" alt="AICFB" className='tieupCompaniesImages' />
-                <img src="/tieupCompanies/intercont.png" alt="AICFB" className='tieupCompaniesImages' />
-                <img src="/tieupCompanies/jetking.png" alt="AICFB" className='tieupCompaniesImages' />
-                <img src="/tieupCompanies/MHS.png" alt="AICFB" className='tieupCompaniesImages MHS' />
-                <img src="/tieupCompanies/mum.png" alt="AICFB" className='tieupCompaniesImages' />
-                <img src="/tieupCompanies/Richkardz.png" alt="AICFB" className='tieupCompaniesImages' />
-                <img src="/tieupCompanies/SA.png" alt="AICFB" className='tieupCompaniesImages' />
-                <img src="/tieupCompanies/Sde.png" alt="AICFB" className='tieupCompaniesImages' />
-                <img src="/tieupCompanies/SKS.png" alt="AICFB" className='tieupCompaniesImages' />
-                <img src="/tieupCompanies/tea-culture-world.png" alt="AICFB" className='tieupCompaniesImages' />
-            </div>
-            <div aria-hidden="true" class="marquee__group">
-                <img src="/tieupCompanies/AICFB.png" alt="AICFB" className='tieupCompaniesImages' />
-                <img src="/tieupCompanies/bookmychef.png" alt="AICFB" className='tieupCompaniesImages' />
-                <img src="/tieupCompanies/BVC.png" alt="AICFB" className='tieupCompaniesImages' />
-                <img src="/tieupCompanies/galalite.png" alt="AICFB" className='tieupCompaniesImages' />
-                <img src="/tieupCompanies/honey.png" alt="AICFB" className='tieupCompaniesImages' />
-                <img src="/tieupCompanies/intercont.png" alt="AICFB" className='tieupCompaniesImages' />
-                <img src="/tieupCompanies/jetking.png" alt="AICFB" className='tieupCompaniesImages' />
-                <img src="/tieupCompanies/MHS.png" alt="AICFB" className='tieupCompaniesImages MHS' />
-                <img src="/tieupCompanies/mum.png" alt="AICFB" className='tieupCompaniesImages' />
-                <img src="/tieupCompanies/Richkardz.png" alt="AICFB" className='tieupCompaniesImages' />
-                <img src="/tieupCompanies/SA.png" alt="AICFB" className='tieupCompaniesImages' />
-                <img src="/tieupCompanies/Sde.png" alt="AICFB" className='tieupCompaniesImages' />
-                <img src="/tieupCompanies/SKS.png" alt="AICFB" className='tieupCompaniesImages' />
-                <img src="/tieupCompanies/tea-culture-world.png" alt="AICFB" className='tieupCompaniesImages' />
-            </div>
-        </div>
-    )
+
     const OurClientsScroller = () => (
         <div className="marque">
             <div className="marque__group">
                 {[
-                    { src: '/clientImages/AnkitMehra.png', alt: 'Ankita Mehra', className: 'debashi'},
-                    { src: '/clientImages/debashi.png', alt: 'Dr Debashi', className: 'debashi'},
-                    { src: '/clientImages/kiran.png', alt: 'Dr kiran Rukadikar'},
-                    { src: '/clientImages/madhu.png', alt: 'Dr Madhu Chopra'},
-                    { src: '/clientImages/shikha.png', alt: 'shikha Khanna' , className: 'debashi'},
-                    { src: '/clientImages/shuti.png', alt: 'Dr shuti Khare Shukla' },
-                    { src: '/clientImages/Tina.png', alt: 'Ms Tina Vinod', className: 'debashi'},
-                    { src: '/clientImages/Trishna.png', alt: 'Dr Trishna Gupte' },
-                    { src: '/clientImages/Twinkle.png', alt: 'Twinkle Jain', className: 'debashi'},
+                    { src: '/ball2.webp', alt: 'Ankita Mehra', className: 'debashi'},
+                    { src: '/ball3.webp', alt: 'Dr Debashi', className: 'debashi'},
+                    { src: '/ball4.webp', alt: 'Dr kiran Rukadikar'},
+                    { src: '/ball4.webp', alt: 'Dr Madhu Chopra'},
+                    { src: '/ball2.webp', alt: 'shikha Khanna' , className: 'debashi'},
+                    { src: '/ball3.webp', alt: 'Dr shuti Khare Shukla' },
+                    { src: '/ball1.webp', alt: 'Ms Tina Vinod', className: 'debashi'},
+                    { src: '/ball3.webp', alt: 'Dr Trishna Gupte' },
+                    { src: '/ball2.webp', alt: 'Twinkle Jain', className: 'debashi'},
                 ].map(client => (
                     <div className="clientImageWrapper" key={client.alt}>
                         <img src={client.src} alt={client.alt} className="clientImages" />
-                        <span className={`clientName ${client.className || ''}`}>{client.alt}</span>
+                        {/* <span className={`clientName ${client.className || ''}`}>{client.alt}</span> */}
                     </div>
                 ))}
             </div>
     
             <div aria-hidden="true" className="marque__group">
-                {[
-                    { src: '/clientImages/AnkitMehra.png', alt: 'Ankita Mehra', className: 'debashi'},
-                    { src: '/clientImages/debashi.png', alt: 'Dr Debashi', className: 'debashi'},
-                    { src: '/clientImages/kiran.png', alt: 'Dr kiran Rukadikar'},
-                    { src: '/clientImages/madhu.png', alt: 'Dr Madhu Chopra' },
-                    { src: '/clientImages/shikha.png', alt: 'shikha Khanna' , className: 'debashi'},
-                    { src: '/clientImages/shuti.png', alt: 'Dr shuti Khare Shukla' },
-                    { src: '/clientImages/Tina.png', alt: 'Ms Tina Vinod', className: 'debashi'},
-                    { src: '/clientImages/Trishna.png', alt: 'Dr Trishna Gupte' },
-                    { src: '/clientImages/Twinkle.png', alt: 'Twinkle Jain', className: 'debashi'},
+               {[
+                    { src: '/ball2.webp', alt: 'Ankita Mehra', className: 'debashi'},
+                    { src: '/ball3.webp', alt: 'Dr Debashi', className: 'debashi'},
+                    { src: '/ball4.webp', alt: 'Dr kiran Rukadikar'},
+                    { src: '/ball4.webp', alt: 'Dr Madhu Chopra'},
+                    { src: '/ball2.webp', alt: 'shikha Khanna' , className: 'debashi'},
+                    { src: '/ball3.webp', alt: 'Dr shuti Khare Shukla' },
+                    { src: '/ball1.webp', alt: 'Ms Tina Vinod', className: 'debashi'},
+                    { src: '/ball3.webp', alt: 'Dr Trishna Gupte' },
+                    { src: '/ball2.webp', alt: 'Twinkle Jain', className: 'debashi'},
                 ].map(client => (
                     <div className="clientImageWrapper" key={client.alt}>
                         <img src={client.src} alt={client.alt} className="clientImages" />
-                        <span className={`clientName ${client.className || ''}`}>{client.alt}</span>
+                        {/* <span className={`clientName ${client.className || ''}`}>{client.alt}</span> */}
                     </div>
                 ))}
             </div>
@@ -88,8 +52,8 @@ const About = () => {
             <div className='specialEffect'>
             <Navbar />
                 <div className='empty-div'>
-                    <h1 className='serviceHeading1'>About Us</h1>
-                    <p className='aboutDescript1'>"We are your reliable medium for impactful communication"</p>
+                    <h1 className='heading1'>About Us</h1>
+                    <p className='aboutDescript1 heading1'>"We are your reliable medium for impactful communication"</p>
                 </div>
             </div>
             <div className='whatWeOffer1'>
@@ -99,33 +63,24 @@ const About = () => {
             {/* <h1>Little Story About Us</h1> */}
             {/* <h3 className='aboutHeading'>Little Story About Us</h3> */}
             <p className='aboutDescriptheader'>
-                <span className='specialword'>MediaThings</span> is a pioneering media services company committed to redefining how businesses communicate with their audiences. Combining innovative strategies with a client-focused approach, MediaThings offers a comprehensive suite of services designed to enhance brand visibility and audience engagement in today's dynamic media landscape. <br/><br/> 
+                <span className='specialword'>Trishyam</span> the home of Duster pens—a brand synonymous with innovation, quality, and precision in writing instruments. At Trishyam, we are passionate about creating pens that inspire creativity and enhance the writing experience for people all around the world. <br/><br/> 
             </p>
             <p className='aboutDescript2'>
-                A team of seasoned media professionals with extensive industry experience, work together at MediaThings with a vision to deliver integrated media solutions. The company has become a trusted partner for businesses in various sectors like healthcare, entertainment, defence, logistics, FMCG etc, and seeking expert guidance in digital marketing, public relations, and media management. MediaThings excels through its dedication to quality, creativity, and results-driven strategies, ensuring every client achieves their communication objectives with precision and impact.<br/><br/> 
+               Founded with a vision to revolutionize the pen industry, Trishyam has grown to become a trusted name in the market. Our journey began with a simple mission: to design and manufacture pens that are not only functional but also a joy to use. Over the years, we have stayed true to this mission, constantly evolving and innovating to meet the changing needs of our customers.<br/><br/> 
 
-                With a dedication to quality, creativity, and results-driven strategies, MediaThings ensures that every client achieves their communication objectives with precision and impact. Whether you are looking to boost your digital presence, manage public relations, or track media impact, MediaThings is your trusted partner in navigating the complex media landscape.
+               Duster, our flagship brand, embodies the essence of Trishyam’s commitment to excellence. Every Duster pen is crafted with meticulous attention to detail, ensuring a smooth and effortless writing experience. From sleek, ergonomic designs to high-quality materials, Duster pens are perfect for students, professionals, and anyone who values the art of writing.
                 <br/><br/> 
+                At Trishyam, we believe that a pen is more than just a tool—it's an expression of individuality and a gateway to creativity. That’s why we are dedicated to providing pens that offer both style and substance. Our commitment to sustainability is also at the forefront of our operations. We strive to minimize our environmental footprint by using eco-friendly materials and manufacturing processes.
             </p>
         </div>
     </div>
 </div>
-        <h1 className='heading'>Company Who Trust Us</h1>
-            <div className='body'>
-                {ImageScroller()}
-              </div>
+        <h1 className='heading'> Our Products</h1>
+        
               <div className='body'>
                 {OurClientsScroller()}
               </div>
-            <div className='redirection about-redirection'>
-                <div className='redirectionAboutStructure'>
-                    <h1>LET'S MEET</h1>
-                    <p className='redirection-descript'>Book a free 15-minute session where we will discuss your project, your issues and how to solve them.</p>
-                    <Link to='/contactUs' className='redirectionButton'>
-                        <button type='button' className='button'>Let's Start a Project</button>
-                    </Link>
-                </div>
-            </div>
+         
             <Footer />
         </>
     )
