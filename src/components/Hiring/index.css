@@ -1,0 +1,10 @@
+.jobdescription{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 2px;
+}
+.job{
+    width: 85%;
+}
+

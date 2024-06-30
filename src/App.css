@@ -1,0 +1,70 @@
+@import url("https://fonts.googleapis.com/css2?family=Alice&display=swap");
+/* App.css */
+/* @import url('https://fonts.googleapis.com/css2?family=Caveat&display=swap'); */
+
+@import url("https://fonts.googleapis.com/css2?family=Caveat:wght@400..700&display=swap");
+
+.header {
+  font-family: "Caveat",  cursive;
+}
+* {
+  font-family: "helvetica";
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  text-align: justify;
+}
+
+body {
+  /* background-color: #e3cdba; */
+  background-color: #ffffff;
+}
+h1 {
+  /* font-family: 'Alice', sans-serif; */
+  /* color: #5C4033; */
+  color: #eb4d1a;
+}
+nav :hover {
+  color: #5c4033;
+}
+/* *{
+  font-style: normal;
+} */
+
+html::-webkit-scrollbar {
+  display: none;
+}
+
+/* Hide scrollbar for IE, Edge, and Firefox */
+html {
+  -ms-overflow-style: none; /* Internet Explorer 10+ */
+  scrollbar-width: none; /* Firefox */
+}
+
+/* Ensure that the body can still scroll */
+body {
+  overflow: auto; /* Allow scrolling */
+}
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+  width: 100%;
+  height: 100%;
+  box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: content-box;
+}
+p {
+  font-size: 16px !important;
+}
+
+h1 {
+  color: #264257 !important;
+}
