@@ -635,3 +635,54 @@ p {
   max-height: 0%;
   background-color: #264257;
 }
+
+/* Media Queries for responsiveness */
+@media (max-width: 1200px) {
+  .image-grid-item,
+  .responsive-grid-item {
+    flex: 1 1 calc(33.33% - 20px);
+    max-width: calc(33.33% - 20px);
+  }
+}
+
+@media (max-width: 768px) {
+  .image-grid-item,
+  .responsive-grid-item {
+    flex: 1 1 calc(50% - 20px);
+    max-width: calc(50% - 20px);
+  }
+
+  .moving-image {
+    width: 60%;
+    height: 80px;
+  }
+
+  .marque {
+    height: 80px;
+  }
+
+  .clientImages {
+    height: 60px;
+  }
+}
+
+@media (max-width: 480px) {
+  .image-grid-item,
+  .responsive-grid-item {
+    flex: 1 1 100%;
+    max-width: 100%;
+  }
+
+  .moving-image {
+    width: 80%;
+    height: 60px;
+  }
+
+  .marque {
+    height: 60px;
+  }
+
+  .clientImages {
+    height: 40px;
+  }
+}
