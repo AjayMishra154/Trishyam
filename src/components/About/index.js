@@ -9,15 +9,15 @@ const About = () => {
         <div className="marque">
             <div className="marque__group">
                 {[
-                    { src: '/ball2.webp', alt: 'Ankita Mehra', className: 'debashi'},
-                    { src: '/ball3.webp', alt: 'Dr Debashi', className: 'debashi'},
-                    { src: '/ball4.webp', alt: 'Dr kiran Rukadikar'},
-                    { src: '/ball4.webp', alt: 'Dr Madhu Chopra'},
-                    { src: '/ball2.webp', alt: 'shikha Khanna' , className: 'debashi'},
-                    { src: '/ball3.webp', alt: 'Dr shuti Khare Shukla' },
-                    { src: '/ball1.webp', alt: 'Ms Tina Vinod', className: 'debashi'},
-                    { src: '/ball3.webp', alt: 'Dr Trishna Gupte' },
-                    { src: '/ball2.webp', alt: 'Twinkle Jain', className: 'debashi'},
+                    { src: '/trishyam/1 (1).jpg', alt: 'Ankita Mehra', className: 'debashi'},
+                    { src: '/trishyam/1.jpg', alt: 'Dr Debashi', className: 'debashi'},
+                    { src: '/trishyam/2 (1).jpg', alt: 'Dr kiran Rukadikar'},
+                    { src: '/trishyam/5.jpg', alt: 'Dr Madhu Chopra'},
+                    { src: '/trishyam/DSC_2766.JPG', alt: 'shikha Khanna' , className: 'debashi'},
+                    { src: '/trishyam/DSC_2772.JPG', alt: 'Dr shuti Khare Shukla' },
+                    { src: '/trishyam/DSC_2777 (1).JPG', alt: 'Ms Tina Vinod', className: 'debashi'},
+                    { src: '/trishyam/DSC_2778.JPG', alt: 'Dr Trishna Gupte' },
+                    { src: '/trishyam/DSC_3831.JPG', alt: 'Twinkle Jain', className: 'debashi'},
                 ].map(client => (
                     <div className="clientImageWrapper" key={client.alt}>
                         <img src={client.src} alt={client.alt} className="clientImages" />
@@ -28,15 +28,15 @@ const About = () => {
     
             <div aria-hidden="true" className="marque__group">
                {[
-                    { src: '/ball2.webp', alt: 'Ankita Mehra', className: 'debashi'},
-                    { src: '/ball3.webp', alt: 'Dr Debashi', className: 'debashi'},
-                    { src: '/ball4.webp', alt: 'Dr kiran Rukadikar'},
-                    { src: '/ball4.webp', alt: 'Dr Madhu Chopra'},
-                    { src: '/ball2.webp', alt: 'shikha Khanna' , className: 'debashi'},
-                    { src: '/ball3.webp', alt: 'Dr shuti Khare Shukla' },
-                    { src: '/ball1.webp', alt: 'Ms Tina Vinod', className: 'debashi'},
-                    { src: '/ball3.webp', alt: 'Dr Trishna Gupte' },
-                    { src: '/ball2.webp', alt: 'Twinkle Jain', className: 'debashi'},
+                    { src: '/trishyam/1 (1).jpg', alt: 'Ankita Mehra', className: 'debashi'},
+                    { src: '/trishyam/1.jpg', alt: 'Dr Debashi', className: 'debashi'},
+                    { src: '/trishyam/2 (1).jpg', alt: 'Dr kiran Rukadikar'},
+                    { src: '/trishyam/5.jpg', alt: 'Dr Madhu Chopra'},
+                    { src: '/trishyam/DSC_2766.JPG', alt: 'shikha Khanna' , className: 'debashi'},
+                    { src: '/trishyam/DSC_2772.JPG', alt: 'Dr shuti Khare Shukla' },
+                    { src: '/trishyam/DSC_2777 (1).JPG', alt: 'Ms Tina Vinod', className: 'debashi'},
+                    { src: '/trishyam/DSC_2778.JPG', alt: 'Dr Trishna Gupte' },
+                    { src: '/trishyam/DSC_3831.JPG', alt: 'Twinkle Jain', className: 'debashi'},
                 ].map(client => (
                     <div className="clientImageWrapper" key={client.alt}>
                         <img src={client.src} alt={client.alt} className="clientImages" />

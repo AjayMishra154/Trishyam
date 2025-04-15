@@ -5,10 +5,10 @@ import Footer from '../Footer';
 
 const Contact = () => {
     const MailComponent = () => {
-        const emailAddress = 'letsconnect@mediathings.in';
+        const emailAddress = 'trishyamwriting@gmail.com';
         const mailtoLink = `mailto:${emailAddress}`;
         return (
-          <a href={mailtoLink} className='email-href'>letsconnect@mediathings.in</a>
+          <a href={mailtoLink} className='email-href'>trishyamwriting@gmail.com</a>
         );
     };
 
@@ -38,7 +38,7 @@ const Contact = () => {
                         </svg>
                     </p>
                     <h3>Phone number</h3>
-                    <a href="tel:+919987423546"  className="no-underline-link"><p>+91 9987423546</p></a>
+                    <a href="tel:+919867674340"  className="no-underline-link"><p>+91 9867674340</p></a>
                 </div>
                 <div className='cardc'>
                     <p className='logo'>
@@ -48,15 +48,15 @@ const Contact = () => {
                         </svg>
                     </p>
                     <h3>Office Location</h3>
-                    <Link   className="no-underline-link" target='_blank' to="https://www.google.com/maps?q=5V44+QJ4+Conwood+Paragon,+Opp+Indian+Oil+Petrol+Pump,+Near,+Cama+Industrial+Estate,+Goregaon,+Mumbai,+Maharashtra+400063&ftid=0x3be7b792c5915d07:0x7d3846fa3a474b14&entry=gps&lucs=,47071704,47069508,94212614,47084304&g_ep=CAISDTYuMTA1LjIuNDYzMzAYACCenQoqJCw0NzA3MTcwNCw0NzA2OTUwOCw5NDIxMjYxNCw0NzA4NDMwNEICSU4%3D&g_st=iw">
+                    <Link   className="no-underline-link" target='_blank' to="https://www.google.com/maps/place/19%C2%B017'45.5%22N+72%C2%B051'37.2%22E/@19.2959695,72.8577537,17z/data=!3m1!4b1!4m4!3m3!8m2!3d19.2959695!4d72.8603286?hl=en&entry=ttu&g_ep=EgoyMDI1MDQwOS4wIKXMDSoASAFQAw%3D%3D">
 
-                        <p className='loc'>Conwood Paragon, 612, 6th Floor,<br></br> Near Cama Industrial Estate,<br></br> Opp Indian Oil Petrol Pump, <br></br>Goregaon (East), Mumbai - 400063</p>
+                        <p className='loc'>A004 Ganesh Darshan CHSL<br></br> ,Sarvodya paradise<br></br> Near Balaji Hospital <br></br>Mira Road East, Mumbai - 401107</p>
                     </Link>
                 </div>
             </div>
             <div className='mapContainer'>
-                <Link target='_blank' to="https://www.google.com/maps?q=5V44+QJ4+Conwood+Paragon,+Opp+Indian+Oil+Petrol+Pump,+Near,+Cama+Industrial+Estate,+Goregaon,+Mumbai,+Maharashtra+400063&ftid=0x3be7b792c5915d07:0x7d3846fa3a474b14&entry=gps&lucs=,47071704,47069508,94212614,47084304&g_ep=CAISDTYuMTA1LjIuNDYzMzAYACCenQoqJCw0NzA3MTcwNCw0NzA2OTUwOCw5NDIxMjYxNCw0NzA4NDMwNEICSU4%3D&g_st=iw">
-                    <img src="/mapImage.png" alt="mapImage" className='mapImage' />
+                <Link target='_blank' to="https://www.google.com/maps/place/19%C2%B017'45.5%22N+72%C2%B051'37.2%22E/@19.2959695,72.8577537,17z/data=!3m1!4b1!4m4!3m3!8m2!3d19.2959695!4d72.8603286?hl=en&entry=ttu&g_ep=EgoyMDI1MDQwOS4wIKXMDSoASAFQAw%3D%3D">
+                    <img src="/Screenshot from 2025-04-14 21-46-08.png" alt="mapImage" className='mapImage' />
                 </Link>
             </div>
             <Footer />

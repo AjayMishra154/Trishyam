@@ -6,10 +6,10 @@ import Footer from '../Footer';
 
 const Hiring = () => {
     const MailComponent = () => {
-    const emailAddress = 'letsconnect@mediathings.in';
+    const emailAddress = 'trishyamwriting@gmail.com';
     const mailtoLink = `mailto:${emailAddress}`;
     return (
-      <a href={mailtoLink} className='email-href'>letsconnect@mediathings.in</a>
+      <a href={mailtoLink} className='email-href'>trishyamwriting@gmail.com</a>
     );
 };
 
@@ -25,7 +25,7 @@ return (
          <h3 >Join Our Team at MediaThings</h3>
          <p>
          With a wide range of services at MediaThings, you’ll have the opportunity to work on diverse and challenging projects that will enhance your skills and experience. If you are looking to be part of a dynamic and creative team, we invite you to explore the exciting career opportunities at MediaThings.
-         Email your CV to us at {MailComponent()}
+         Email your CV to us at 
          </p>
          
        </div>
